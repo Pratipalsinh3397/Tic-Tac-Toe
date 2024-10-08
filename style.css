@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    background-color: rgb(24, 52, 85);
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    /* display: none; */
+    text-align: center;
+    z-index: 2;
+}
+
+.form-container h1{
+    font-size: 55px;
+    padding: 50px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: cyan;
+    text-shadow: 0px 0px 10px black;
+}
+
+.form-container form{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 90px 0px;
+}
+
+
+
+.form-container form label{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(24, 52, 85) ;
+}
+
+.form-container form input{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(24, 52, 85) ;
+    outline: none;
+    border: 3px solid rgb(24, 52, 85);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.form-container form .startNew{
+    margin: 20px 0px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.form-container form .startNew:hover{
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+}
+
+.form-container form .startNew:active{
+    background-color: white;
+    color: rgb(24, 52, 85);
+}
+
+
+.main-container{
+    background-color: rgb(24, 52, 85);
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    text-align: center;
+    z-index: 2;
+}
+
+.main-container h1{
+    font-size: 55px;
+    padding: 50px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: cyan;
+    text-shadow: 0px 0px 10px black;
+}
+
+.main-container p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: cyan;
+    text-shadow: 0px 0px 10px black;
+}
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   width: 350px;
+   height: 350px;
+   margin: 30px auto 20px auto;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 52, 85);
+    font-size: 90px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.reset{
+    margin: 30px 0px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+    box-shadow: 0px 0px 10px black;
+}
+
+.reset:hover{
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+}
+
+.reset:active{
+    background-color: white;
+    color: rgb(24, 52, 85);
+    transition: 0.1s;
+}
+
+.display-winner-container{
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgb(24, 52, 85);
+
+}
+
+.display-winner{        
+    margin: 225px auto;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 52, 85);
+    box-shadow: 0px 0px 10px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.new{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.new:hover{
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+}
+
+.new:active{
+    background-color: white;
+    color: rgb(24, 52, 85);
+}
+
+.playAgain{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.playAgain:hover{
+    background-color: cyan;
+    color: rgb(24, 52, 85);
+}
+
+.playAgain:active{
+    background-color: white;
+    color: rgb(24, 52, 85);
+}

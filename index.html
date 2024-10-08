@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Tic Tac Toe</h1>
+        <form>
+            <label for="playerOne">Enter Player-1 Name For <b>O</b></label><br><br>
+            <input type="text" name="playerOne" id="playerOne" required maxlength="10"><br><br>
+            <label for="playerTwo">Enter Player-2 Name For <b>X</b></label><br><br>
+            <input type="text" name="playerTwo" id="playerTwo" required maxlength="10"><br><br>
+            <button class="startNew">Start a Game</button>
+        </form>
+    </div>
+    <div class="main-container">
+        <h1>Tic Tac Toe</h1>
+        <p><span class="player-1"></span> (O) V/S <span class="player-2"></span> (X)</p>
+        <div class="container">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <button type="reset" class="reset">Restart Game</button>
+    </div>
+    <div class="display-winner-container">
+        <div class="display-winner">
+            <h1><span class="winner"></span></h1>
+            <button type="button" class="playAgain">Play Again</button>
+            <button type="button" class="new">Start New Game</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
